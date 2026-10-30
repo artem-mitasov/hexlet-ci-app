@@ -32,5 +32,5 @@ jobs:
       - run: make setup 
       - run: make lint 
       - run: make test 
-      - uses: hexlet-components/hello-from-hexlet-action@8435b7d6a29e98c43e35f8ce545b612a6f567f2e
-      # END
+      - name: Print Hello from Hexlet
+        uses: hexlet-components/hello-from-hexlet-action@release# END
